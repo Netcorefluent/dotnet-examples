@@ -31,7 +31,7 @@ namespace DataGenerator
                             Value = _tribute[rand.Next(_tribute.Length)]
                         });
                         Console.WriteLine($"Delivered '{dr.Value}' to '{dr.TopicPartitionOffset}'");
-                        //Thread.Sleep(1000);
+                        Thread.Sleep(100);
                     }
                 }
                 catch (KafkaException e)
