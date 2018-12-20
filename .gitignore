@@ -28,6 +28,8 @@ tarballs/
 test-results/
 Thumbs.db
 .vs/
+.vscode/
+.idea/
 
 # Mac bundle stuff
 *.dmg
